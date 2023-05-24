@@ -49,3 +49,19 @@ form .display input {
 form input.equal{
     width: 145px;
 }
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============= */
+@media screen and (max-width: 600px){
+    *{
+       height: fit-content;
+    }
+    .container{
+        display: contents;
+        align-items: center;
+        justify-content: center;
+     height: 400px;
+     width: 500px;
+       
+       
+    }
+   
+}
